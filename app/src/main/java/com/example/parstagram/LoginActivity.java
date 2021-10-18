@@ -108,6 +108,4 @@ public class LoginActivity<ParseActivity> extends AppCompatActivity {
         startActivity(i);
         finish();
     }
-
-
 }

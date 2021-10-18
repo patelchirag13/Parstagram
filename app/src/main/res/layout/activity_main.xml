@@ -26,7 +26,7 @@
         android:layout_alignParentStart="true"
         android:layout_centerHorizontal="true"
         android:layout_marginStart="63dp"
-        android:layout_marginTop="21dp"
+        android:layout_marginTop="3dp"
         android:text="Take Picture" />
 
     <ImageView
@@ -37,9 +37,9 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginStart="5dp"
-        android:layout_marginTop="28dp"
-        android:layout_marginEnd="1dp"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="-1dp"
         tools:srcCompat="@tools:sample/avatars" />
 
     <Button
@@ -48,6 +48,15 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="44dp"
+        android:layout_marginBottom="97dp"
         android:text="Post" />
+
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="37dp"
+        android:text="Logout" />
 </RelativeLayout>
