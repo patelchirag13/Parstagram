@@ -23,7 +23,11 @@ The following **optional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+- Demo of User can Signup
+<img src="https://github.com/patelchirag13/Parstagram/blob/master/WalkThrough-Signup.gif" width=250>
+
+- Demo of Login, Logout, User is persisted across app restarts and User can take a photo, add a caption, and post it
+<img src="https://github.com/patelchirag13/Parstagram/blob/master/WalkThrough-Demo.gif" width=250>
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
