@@ -58,7 +58,6 @@ public class ComposeFragment extends Fragment {
         // Required empty public constructor
     }
 
-
     // The onCreateView method is called when Fragment should create its View object hierarchy,
     // either dynamically or via XML layout inflation.
     @Override
