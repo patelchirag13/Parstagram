@@ -50,6 +50,6 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="5dp"
         android:text="Post"
-        tools:layout_marginStart="87dp" />
+        tools:layout_marginStart="85dp" />
 
 </RelativeLayout>
