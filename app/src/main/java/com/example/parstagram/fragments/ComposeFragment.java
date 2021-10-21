@@ -28,6 +28,7 @@ import com.example.parstagram.LoginActivity;
 import com.example.parstagram.MainActivity;
 import com.example.parstagram.Post;
 import com.example.parstagram.R;
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.parse.FindCallback;
 import com.parse.ParseException;
 import com.parse.ParseFile;
@@ -48,7 +49,7 @@ public class ComposeFragment extends Fragment {
     public static final int CAPTURE_IMAGE_ACTIVITY_REQUEST_CODE = 42;
     public static final String TAG = "ComposeFragment";
     private EditText etDescription;
-    private Button btnCaptureImage;
+    private FloatingActionButton btnCaptureImage;
     private ImageView ivPostImage;
     private Button btnSubmit;
     private File photoFile;

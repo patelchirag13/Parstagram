@@ -5,13 +5,13 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:background="@drawable/background_border"
-    android:orientation="vertical"
-    android:padding="5dp">
+    android:orientation="vertical">
 
     <TextView
         android:id="@+id/tvUsername"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:padding="5dp"
         android:text="chirag"
         android:textAppearance="@style/TextAppearance.AppCompat.Large" />
 
@@ -19,7 +19,7 @@
         android:id="@+id/ivImage"
         android:layout_width="match_parent"
         android:layout_height="300dp"
-        tools:scaleType="centerCrop"
+        android:scaleType="centerCrop"
         tools:srcCompat="@tools:sample/avatars" />
 
     <TextView
@@ -27,6 +27,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="3dp"
+        android:padding="5dp"
         android:text="Hello World!"
         tools:layout_marginBottom="8dp" />
 </LinearLayout>
