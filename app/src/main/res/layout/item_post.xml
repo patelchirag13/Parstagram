@@ -28,7 +28,11 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="3dp"
+        android:fontFamily="More Fonts..."
+        android:lineSpacingExtra="8sp"
         android:padding="10dp"
         android:text="Hello World!"
+        android:textColor="#0B0A0A"
+        android:textSize="16sp"
         tools:layout_marginBottom="8dp" />
 </LinearLayout>
