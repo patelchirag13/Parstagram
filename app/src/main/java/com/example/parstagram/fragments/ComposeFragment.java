@@ -24,20 +24,15 @@ import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.Toast;
 
-import com.example.parstagram.LoginActivity;
-import com.example.parstagram.MainActivity;
-import com.example.parstagram.Post;
+import com.example.parstagram.model.Post;
 import com.example.parstagram.R;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
-import com.parse.FindCallback;
 import com.parse.ParseException;
 import com.parse.ParseFile;
-import com.parse.ParseQuery;
 import com.parse.ParseUser;
 import com.parse.SaveCallback;
 
 import java.io.File;
-import java.util.List;
 
 /**
  * A simple {@link Fragment} subclass.

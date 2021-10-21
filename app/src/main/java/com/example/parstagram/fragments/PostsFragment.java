@@ -14,7 +14,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.example.parstagram.Post;
+import com.example.parstagram.model.Post;
 import com.example.parstagram.PostsAdapter;
 import com.example.parstagram.R;
 import com.parse.FindCallback;
@@ -100,7 +100,6 @@ public class PostsFragment extends Fragment {
                 swipeContainer.setRefreshing(false);
                 allPosts.addAll(posts);
                 adapter.notifyDataSetChanged();
-                //Merged with test
             }
         });
     }
