@@ -66,6 +66,7 @@ public class ProfilePostAdapter extends RecyclerView.Adapter<ProfilePostAdapter.
             ivProfileImg = itemView.findViewById(R.id.ivProfileImg);
         }
 
+        @RequiresApi(api = Build.VERSION_CODES.N)
         public void bind(Post post) {
             // Bind the post data the view elements
             tvDescription.setText(post.getDescription());
