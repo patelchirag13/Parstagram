@@ -1,8 +1,6 @@
 package com.example.parstagram;
 
 import android.content.Context;
-import java.text.SimpleDateFormat;
-import android.media.Image;
 import android.os.Build;
 import android.text.format.DateUtils;
 import android.view.LayoutInflater;
@@ -16,20 +14,20 @@ import androidx.annotation.RequiresApi;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
-import com.bumptech.glide.request.RequestOptions;
 import com.example.parstagram.model.Post;
 import com.parse.ParseFile;
 
 import java.text.ParseException;
+import java.text.SimpleDateFormat;
 import java.util.List;
 import java.util.Locale;
 
-public class PostsAdapter extends RecyclerView.Adapter<PostsAdapter.ViewHolder> {
+public class ProfilePostAdapter extends RecyclerView.Adapter<ProfilePostAdapter.ViewHolder> {
 
     private Context context;
     private List<Post> posts;
 
-    public PostsAdapter(Context context, List<Post> posts) {
+    public ProfilePostAdapter(Context context, List<Post> posts) {
         this.context = context;
         this.posts = posts;
     }
@@ -52,8 +50,7 @@ public class PostsAdapter extends RecyclerView.Adapter<PostsAdapter.ViewHolder> 
         return posts.size();
     }
 
-    class ViewHolder extends RecyclerView.ViewHolder {
-
+    class ViewHolder extends RecyclerView.ViewHolder{
         private TextView tvUsername;
         private ImageView ivImage;
         private TextView tvDescription;
@@ -69,7 +66,6 @@ public class PostsAdapter extends RecyclerView.Adapter<PostsAdapter.ViewHolder> 
             ivProfileImg = itemView.findViewById(R.id.ivProfileImg);
         }
 
-        @RequiresApi(api = Build.VERSION_CODES.N)
         public void bind(Post post) {
             // Bind the post data the view elements
             tvDescription.setText(post.getDescription());
@@ -106,4 +102,3 @@ public class PostsAdapter extends RecyclerView.Adapter<PostsAdapter.ViewHolder> 
         return relativeDate;
     }
 }
-

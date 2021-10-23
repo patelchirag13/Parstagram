@@ -5,17 +5,33 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:background="@drawable/background_border"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:padding="3dp">
 
-    <TextView
-        android:id="@+id/tvUsername"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="5dp"
-        android:paddingBottom="5dp"
-        android:text="chirag"
-        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+        android:padding="5dp">
 
+
+        <ImageView
+            android:id="@+id/ivProfileImg"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_weight="0"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <TextView
+            android:id="@+id/tvUsername"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_weight="1"
+            android:padding="5dp"
+            android:paddingBottom="5dp"
+            android:text="chirag"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+    </LinearLayout>
     <ImageView
         android:id="@+id/ivImage"
         android:layout_width="match_parent"
@@ -35,4 +51,11 @@
         android:textColor="#0B0A0A"
         android:textSize="16sp"
         tools:layout_marginBottom="8dp" />
+
+    <TextView
+        android:id="@+id/tvTimetamp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="56 minutes ago" />
 </LinearLayout>

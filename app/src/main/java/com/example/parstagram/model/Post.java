@@ -38,6 +38,4 @@ public class Post  extends ParseObject {
         put(KEY_USER, user);
     }
 
-    public ParseFile getProfileImage() {return getUser().getParseFile(KEY_PROFILE_IMAGE);}
-
 }
