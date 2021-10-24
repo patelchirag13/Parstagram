@@ -95,6 +95,21 @@
 
     </LinearLayout>
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="5dp">
+    <TextView
+        android:id="@+id/tvUsername2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textAlignment="gravity"
+        android:layout_marginTop="5dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
     <TextView
         android:id="@+id/tvDescription"
         android:layout_width="match_parent"
@@ -102,12 +117,15 @@
         android:layout_marginTop="5dp"
         android:fontFamily="More Fonts..."
         android:lineSpacingExtra="8sp"
-        android:padding="10dp"
+        android:padding="5dp"
         android:text="Hello World!"
+        android:layout_marginStart="5dp"
         android:textColor="#0B0A0A"
         android:textSize="16sp"
         tools:layout_marginBottom="8dp" />
 
+
+    </LinearLayout>
 
     <TextView
         android:id="@+id/tvTimetamp"
