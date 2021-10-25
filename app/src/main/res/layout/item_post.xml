@@ -82,17 +82,21 @@
             app:layout_constraintTop_toBottomOf="@+id/ivPostImage"
             app:srcCompat="@drawable/direct" />
 
-        <ImageView
-            android:id="@+id/saveBtn"
-            android:layout_width="30dp"
-            android:layout_height="30dp"
-            android:layout_marginStart="240dp"
-            android:layout_marginTop="5dp"
-            android:backgroundTint="@color/black"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/ivPostImage"
-            app:srcCompat="@drawable/ufi_save" />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
 
+            <ImageView
+                android:id="@+id/saveBtn"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="10dp"
+                android:backgroundTint="@color/black"
+                app:srcCompat="@drawable/ufi_save" />
+
+        </RelativeLayout>
     </LinearLayout>
 
     <LinearLayout
