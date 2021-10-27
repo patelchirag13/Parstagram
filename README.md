@@ -34,6 +34,8 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
+<img src="https://github.com/patelchirag13/Parstagram/blob/master/WalkThrough-Demo3.gif" width=250>
+
 <img src="https://github.com/patelchirag13/Parstagram/blob/master/WalkThrough-Demo1.gif" width=250>
 
 <img src="https://github.com/patelchirag13/Parstagram/blob/master/WalkThrough-Demo2.gif" width=250>
